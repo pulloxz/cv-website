@@ -1,0 +1,73 @@
+  .HomePage {
+    display: flex;
+    flex-direction: column;
+    min-height: 85vh;
+  }
+  .main-content {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+    padding-top: 100px;
+  }
+  .right-section {
+    position: relative;
+    top: 170px;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .social-icons {
+    margin-bottom: 1rem;
+  }
+  
+  .social-icons a {
+    color: #000;
+    font-size: 24px;
+    margin: 0 0.5rem;
+  }
+  
+ 
+
+  h2{
+    font-family: "Roboto Mono";
+  }
+  
+  .nav-link {
+    padding: 8px 20px;
+  }
+  .buttons {
+    display: flex;
+    gap: 20px; 
+  }
+
+.footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+  }
+  .social-icons{
+    padding-top: 10px;
+  }
+  .navbar-container {
+    height: 100px;
+  }
+  .brand{
+    position: relative;
+    right: 230px;
+    font-family: "Roboto Mono";
+  }
+  .title{
+    font-family: "Roboto Mono";
+    color: gray;
+    position: relative;
+    right: 480px;
+  } 
